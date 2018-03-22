@@ -6,9 +6,9 @@
 //  Copyright © 2018 Even Lauvrak. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
-class Item {
+class Item: Codable {
     var title : String = ""
     var done : Bool = false
     
